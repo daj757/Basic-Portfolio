@@ -1,0 +1,100 @@
+.Navbar {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+
+h1 { 
+	font-family: Georgia, Times, Times, serif;
+	margin-left: 10%;
+	background: #4aaaa5;
+	padding: 25px;
+	color: white;
+	margin-bottom: 0;
+	margin-top:0;
+	margin-right: 8em;
+	
+
+
+}
+
+h2 {
+	margin-left: 15px;
+	text-align: left;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	color: #4aaaa5;
+	padding: 20px;
+}
+
+h3 {
+	color: #4aaaa5;
+}
+.menu {
+	display:inline-flex;
+  	margin-top: 3em;
+	list-style-type: none;
+
+	
+
+}
+
+.menu a {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0;
+  text-decoration: none;
+  color: grey; 
+  border-right: 1px solid rgba(0,0,0,0.1);
+ 
+  
+
+     
+}
+
+.body {
+	background-image: url('../images/black.png');
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: auto;
+	font-family: Georgia, Times, Times, serif;
+
+}
+
+.Aboutme {
+	background: white;
+	width: 500px;
+	height: 400px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10%;
+	margin-right: 10px;
+	border: 2px solid rgba(0,0,0,0.1);
+
+}
+
+.Connect {
+	text-align:center;
+	width: 250px;
+	height: 200px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-left: 30px;
+	background: white;
+	border: 2px solid rgba(0,0,0,0.1);
+	
+
+
+}
+
+footer {
+	padding: 25px;
+	background-color: grey;
+	border-top: 5px solid #4aaaa5;
+	text-align: center;
+	color: white;
+	font-family: Georgia, Times, Times, serif;
+
+	
+}
